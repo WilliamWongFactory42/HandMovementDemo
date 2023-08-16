@@ -858,7 +858,7 @@
                         "ry": 0,
                         "rz": 0,
                         "sx": 1,
-                        "sy": 1,
+                        "sy": -1,
                         "sz": 1,
                         "x": 0,
                         "y": 0,
@@ -1197,7 +1197,7 @@
           "name": "License.js"
         },
         {
-          "assetDataHash": "580a10d79de58ab8b07eba6e70d0c20d",
+          "assetDataHash": "8db6d8a24bea27819ff9daad3650b0d5",
           "assetLocator": "scripts/HandTracking.js",
           "excludeDuringExport": false,
           "excludeFromPackage": false,

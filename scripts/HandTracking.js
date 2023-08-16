@@ -22,6 +22,9 @@ const handCount = HandTracking.count;
 
 const TEXTURE_SCALE = 1.2;
 
+// Set a constant for ratation speed
+const ROTATION_SPEED = 2.5;
+
 (async function () { // Enable async/await in JS [part 1]
 
     //print a message to make sure the script is loaded
@@ -36,7 +39,7 @@ const TEXTURE_SCALE = 1.2;
     WorldSphere.hidden = hand0.isTracked.not();
 
     // Bind the rotation of the spheres to the hand positions
-    WorldSphere.transform.rotationY = hand0.boundingBox.x.mul(Math.PI);
+    WorldSphere.transform.rotationY = hand0.boundingBox.center.x.mul(Math.PI * ROTATION_SPEED);
 
 
 })(); // Enable async/await in JS [part 2]
