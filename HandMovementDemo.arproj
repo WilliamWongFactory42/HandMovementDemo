@@ -238,8 +238,158 @@
           "name": "Scene Render Pass Texture",
           "patchV2": "template_patch_model:88132-eaca62dc-3e81-402c-b0cd-569d3b9a09b1",
           "sourceSceneObjectIdentifier": "template_patch_model:88132-eaca62dc-3e81-402c-b0cd-569d3b9a09b1"
+        },
+        {
+          "alphaPremultiplicationMode": "none",
+          "assetLocator": "111660-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1.png",
+          "children": [
+            {
+              "assetDataHash": "87798819e923aa7a1df352c412d6cf13",
+              "colorCount": 759,
+              "detectedAlphaChannel": "no_alpha",
+              "detectedOriginalFormat": "png",
+              "entropyOfDistribution": 9.103762231252079,
+              "modelName": "data_texture_metadata_model",
+              "pixelsHigh": 32,
+              "pixelsWide": 64
+            }
+          ],
+          "colorEncoding": "rgbd",
+          "compressionQuality": "high",
+          "coordMapping": "equirectangular",
+          "excludeDuringExport": false,
+          "excludeFromPackage": false,
+          "exportConfigurations": [
+            "textureExportConfig:111662-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+            "textureExportConfig:111664-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+            "textureExportConfig:111666-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1"
+          ],
+          "filter": "bilinear",
+          "hasOfflineMipmaps": false,
+          "height": 32,
+          "identifier": "texture:111659-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+          "importIssues": {},
+          "isExternalAsset": false,
+          "modelName": "texture",
+          "name": "office_diffuse",
+          "smartTextureTargetSizeLimit": "largest",
+          "targetSize": "largest",
+          "uWrapMode": "repeat",
+          "vWrapMode": "clamp",
+          "width": 64
+        },
+        {
+          "alphaPremultiplicationMode": "none",
+          "assetLocator": "111669-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1.png",
+          "colorEncoding": "linear",
+          "compressionQuality": "high",
+          "coordMapping": "equirectangular",
+          "excludeDuringExport": true,
+          "excludeFromPackage": false,
+          "exportConfigurations": [
+            "textureExportConfig:111671-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+            "textureExportConfig:111673-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+            "textureExportConfig:111675-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1"
+          ],
+          "filter": "bilinear",
+          "hasOfflineMipmaps": false,
+          "height": 256,
+          "identifier": "texture:111668-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+          "importIssues": {},
+          "isExternalAsset": false,
+          "modelName": "texture",
+          "name": "office_preview",
+          "smartTextureTargetSizeLimit": "largest",
+          "targetSize": "largest",
+          "uWrapMode": "repeat",
+          "vWrapMode": "clamp",
+          "width": 512
+        },
+        {
+          "alphaPremultiplicationMode": "none",
+          "assetLocator": "111678-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1.png",
+          "children": [
+            {
+              "assetDataHash": "d0ad2eb085ec23eaae4044c7d47a2ad4",
+              "colorCount": 44059,
+              "detectedAlphaChannel": "eight_bit_full_range",
+              "detectedOriginalFormat": "png",
+              "entropyOfDistribution": 14.411108935529345,
+              "modelName": "data_texture_metadata_model",
+              "pixelsHigh": 256,
+              "pixelsWide": 512
+            }
+          ],
+          "colorEncoding": "rgbd",
+          "compressionQuality": "high",
+          "coordMapping": "equirectangular",
+          "excludeDuringExport": false,
+          "excludeFromPackage": false,
+          "exportConfigurations": [
+            "textureExportConfig:111680-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+            "textureExportConfig:111682-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+            "textureExportConfig:111684-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1"
+          ],
+          "filter": "trilinear",
+          "hasOfflineMipmaps": false,
+          "height": 256,
+          "identifier": "texture:111677-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+          "importIssues": {},
+          "isExternalAsset": false,
+          "modelName": "texture",
+          "name": "office_specular",
+          "smartTextureTargetSizeLimit": "largest",
+          "targetSize": "largest",
+          "uWrapMode": "repeat",
+          "vWrapMode": "clamp",
+          "width": 512
+        },
+        {
+          "diffuseEnvironmentTextureIdentifier": "texture:111659-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+          "identifier": "environment_texture_model:111686-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+          "modelName": "environment_texture_model",
+          "name": "Default environment texture",
+          "previewEnvironmentTextureIdentifier": "texture:111668-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+          "specularEnvironmentTextureIdentifier": "texture:111677-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1"
+        },
+        {
+          "alphaPremultiplicationMode": "should_premultiply",
+          "assetDataHash": "89e6bac3cd30956d47b430f5aa588b71",
+          "assetLocator": "textures/1_earth_2k.jpg",
+          "children": [
+            {
+              "assetDataHash": "89e6bac3cd30956d47b430f5aa588b71",
+              "colorCount": 58452,
+              "detectedAlphaChannel": "no_alpha",
+              "detectedOriginalFormat": "jpeg",
+              "entropyOfDistribution": 12.655585257942716,
+              "modelName": "data_texture_metadata_model",
+              "name": "data_texture_metadata_model0",
+              "pixelsHigh": 512,
+              "pixelsWide": 1024
+            }
+          ],
+          "colorEncoding": "linear",
+          "compressionQuality": "high",
+          "coordMapping": "none",
+          "excludeDuringExport": false,
+          "excludeFromPackage": false,
+          "filter": "bilinear",
+          "hasOfflineMipmaps": false,
+          "height": 512,
+          "identifier": "texture:113233-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+          "importIssues": {},
+          "isExternalAsset": true,
+          "modelName": "texture",
+          "name": "1_earth_2k",
+          "smartTextureTargetSizeLimit": "largest",
+          "targetSize": "largest",
+          "uWrapMode": "clamp",
+          "vWrapMode": "clamp",
+          "width": 1024
         }
       ],
+      "defaultEnvironmentTexture": "environment_texture_model:111686-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
       "identifier": "textures:FBCFA0D3-06E1-40D9-B35F-25A8C2A33AFE",
       "modelName": "textures"
     },
@@ -396,16 +546,207 @@
           "writesToColorBufferBlue": true,
           "writesToColorBufferGreen": true,
           "writesToColorBufferRed": true
+        },
+        {
+          "alphaTestEnabled": false,
+          "alphaTestThreshold": 0,
+          "baseColorFactor": "0xffffffff",
+          "baseColorTextureName": "texture:113233-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+          "baseColorTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "blendMode": "alpha",
+          "colorEncoding": "srgb",
+          "cullMode": "back",
+          "diffuseEnvironmentTextureTransform": {
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "diffuseTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "doubleSided": false,
+          "emissiveEnabled": false,
+          "emissiveFactor": "0xff000000",
+          "emissiveTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "environmentEnabled": true,
+          "environmentTextureName": "environment_texture_model:111686-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+          "identifier": "dependent_metallic_roughness_p_b_r_material_model:111639-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+          "importIssues": {},
+          "isBaseColorTextureIdentifierEnabled": true,
+          "isDiffuseEnvironmentTextureIdentifierEnabled": false,
+          "isDiffuseTextureIdentifierEnabled": false,
+          "isEmissiveTextureIdentifierEnabled": false,
+          "isMetallicRoughnessTextureIdentifierEnabled": false,
+          "isNormalTextureIdentifierEnabled": false,
+          "isOcclusionTextureIdentifierEnabled": false,
+          "isSpecularEnvironmentTextureIdentifierEnabled": false,
+          "metallicFactor": 0.10000000149011612,
+          "metallicRoughnessTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "modelName": "dependent_metallic_roughness_p_b_r_material_model",
+          "name": "HiresSphere_mat",
+          "normalTextureScale": 1,
+          "normalTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "occlusionStrength": 0,
+          "occlusionTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "readDepth": true,
+          "roughnessFactor": 0.5,
+          "sourceIdentifier": "asset_collection_model:111657-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+          "specularEnvironmentTextureTransform": {
+            "rotationX": 0,
+            "rotationY": 0,
+            "rotationZ": 0
+          },
+          "transparency": 1,
+          "vertexColorEnabled": true,
+          "writeDepth": true,
+          "writesToColorBufferAlpha": true,
+          "writesToColorBufferBlue": true,
+          "writesToColorBufferGreen": true,
+          "writesToColorBufferRed": true
         }
       ],
       "identifier": "materials:855C4265-4A98-45FE-816A-4CECACFD30D5",
       "modelName": "materials"
     },
     {
+      "children": [
+        {
+          "assetLocator": "111648-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1.glb",
+          "excludeDuringExport": false,
+          "excludeFromPackage": false,
+          "identifier": "gltf:111647-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+          "isExternalAsset": false,
+          "modelName": "gltf",
+          "name": "HiresSphere",
+          "sourceIdentifier": "master3_d_object_model:111653-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1"
+        }
+      ],
       "identifier": "prefabs:BE20AEC2-ACDC-4276-8E9D-186BC1C52413",
       "modelName": "prefabs"
     },
     {
+      "children": [
+        {
+          "animationMask": {
+            "position": false,
+            "rotation": false,
+            "scale": false
+          },
+          "cameraVisibility": "back|front",
+          "children": [
+            {
+              "animationMask": {
+                "position": false,
+                "rotation": false,
+                "scale": false
+              },
+              "cameraVisibility": "back|front",
+              "castShadow": false,
+              "children": [
+                {
+                  "children": [
+                    {
+                      "identifier": "surface:111650-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+                      "isMaterialIdentifierEnabled": true,
+                      "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:111639-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+                      "modelName": "surface",
+                      "name": "surface0",
+                      "surfaceGroupIdentifier": "111651-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1"
+                    }
+                  ],
+                  "identifier": "surfaces:111643-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+                  "modelName": "surfaces"
+                },
+                {
+                  "identifier": "blend_shapes_model:111645-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+                  "modelName": "blend_shapes_model"
+                }
+              ],
+              "hidden": false,
+              "identifier": "mesh:111641-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+              "modelName": "mesh",
+              "name": "HiresSphere",
+              "nodeName": "HiresSphere",
+              "numberOfFaces": 1740,
+              "outputVisibility": "preview|capture",
+              "physicsEnabled": false,
+              "prefabIdentifier": "gltf:111647-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+              "receiveShadow": false,
+              "renderPass": "main_scene",
+              "tags": [],
+              "transform": {
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "useEmbeddedBlendshapes": false
+            }
+          ],
+          "depth": 0.04972612112760544,
+          "globalScaleFactor": 1,
+          "height": 0.04999999701976776,
+          "hidden": false,
+          "identifier": "master3_d_object_model:111653-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+          "modelName": "master3_d_object_model",
+          "name": "HiresSphere",
+          "outputVisibility": "preview|capture",
+          "physicsEnabled": false,
+          "sourceIdentifier": "asset_collection_model:111657-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+          "tags": [],
+          "transform": {
+            "rx": 0,
+            "ry": 0,
+            "rz": 0,
+            "sx": 1,
+            "sy": 1,
+            "sz": 1,
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "width": 0.050000011920928955
+        }
+      ],
       "identifier": "3_d_objects_model:293E7E67-25B2-4CCB-9FF9-496325D7219D",
       "modelName": "3_d_objects_model"
     },
@@ -474,203 +815,44 @@
                         "rotation": false,
                         "scale": false
                       },
-                      "aspectRatioValue": 1,
                       "cameraVisibility": "back|front",
-                      "fillMode": "none",
-                      "height": {
-                        "unit": {
-                          "multiplier": 1,
-                          "unitBase": 10
+                      "castShadow": false,
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "identifier": "surface:112282-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+                              "isMaterialIdentifierEnabled": true,
+                              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:111639-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+                              "modelName": "surface",
+                              "name": "surface0",
+                              "sourceIdentifier": "surface:111650-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+                              "surfaceGroupIdentifier": "111651-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1"
+                            }
+                          ],
+                          "identifier": "surfaces:112279-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+                          "modelName": "surfaces",
+                          "sourceIdentifier": "surfaces:111643-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1"
                         },
-                        "value": 0
-                      },
+                        {
+                          "identifier": "blend_shapes_model:112285-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+                          "modelName": "blend_shapes_model",
+                          "sourceIdentifier": "blend_shapes_model:111645-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1"
+                        }
+                      ],
                       "hidden": false,
-                      "horizontalAlignment": "center",
-                      "identifier": "rectangle_model:399-b8094366-f94f-4e1c-9d78-9b16f5d847a5",
-                      "isMaterialIdentifierEnabled": true,
+                      "identifier": "mesh:112276-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
                       "layerIdentifier": "layer0",
-                      "locksAspectRatio": false,
-                      "materialIdentifier": "defaultMaterial:65280-fe58c94e-9eee-42bd-9fb9-0a1b702f3a52",
-                      "modelName": "rectangle_model",
-                      "name": "rect_hand0",
+                      "modelName": "mesh",
+                      "name": "HiresSphere",
+                      "nodeName": "HiresSphere",
+                      "numberOfFaces": 1740,
                       "outputVisibility": "preview|capture",
                       "physicsEnabled": false,
-                      "pinnedBottom": false,
-                      "pinnedBottomValue": {
-                        "unit": {
-                          "multiplier": 1,
-                          "unitBase": 10
-                        },
-                        "value": 0
-                      },
-                      "pinnedHorizontalCenterValue": {
-                        "unit": {
-                          "multiplier": 1,
-                          "unitBase": 10
-                        },
-                        "value": 0
-                      },
-                      "pinnedLeft": true,
-                      "pinnedLeftValue": {
-                        "unit": {
-                          "multiplier": 1,
-                          "unitBase": 10
-                        },
-                        "value": 0
-                      },
-                      "pinnedRight": false,
-                      "pinnedRightValue": {
-                        "unit": {
-                          "multiplier": 1,
-                          "unitBase": 10
-                        },
-                        "value": 0
-                      },
-                      "pinnedTop": true,
-                      "pinnedTopValue": {
-                        "unit": {
-                          "multiplier": 1,
-                          "unitBase": 10
-                        },
-                        "value": 0
-                      },
-                      "pinnedVerticalCenterValue": {
-                        "unit": {
-                          "multiplier": 1,
-                          "unitBase": 10
-                        },
-                        "value": 0
-                      },
-                      "positionX": {
-                        "unit": {
-                          "multiplier": 1,
-                          "unitBase": 10
-                        },
-                        "value": 0
-                      },
-                      "positionY": {
-                        "unit": {
-                          "multiplier": 1,
-                          "unitBase": 10
-                        },
-                        "value": 0
-                      },
-                      "rotation": 0,
-                      "scaleX": 1,
-                      "scaleY": 1,
-                      "tags": [],
-                      "transform": {
-                        "rx": 0,
-                        "ry": 0,
-                        "rz": 0,
-                        "sx": -1,
-                        "sy": 1,
-                        "sz": 1,
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      },
-                      "usesFlexibleHeight": false,
-                      "usesFlexibleWidth": false,
-                      "verticalAlignment": "center",
-                      "width": {
-                        "unit": {
-                          "multiplier": 1,
-                          "unitBase": 10
-                        },
-                        "value": 0
-                      }
-                    },
-                    {
-                      "animationMask": {
-                        "position": false,
-                        "rotation": false,
-                        "scale": false
-                      },
-                      "aspectRatioValue": 1,
-                      "cameraVisibility": "back|front",
-                      "fillMode": "none",
-                      "height": {
-                        "unit": {
-                          "multiplier": 1,
-                          "unitBase": 10
-                        },
-                        "value": 0
-                      },
-                      "hidden": false,
-                      "horizontalAlignment": "center",
-                      "identifier": "rectangle_mode65515-ac16fcd3-c7bb-40f8-85f0-7365c5639c41",
-                      "isMaterialIdentifierEnabled": true,
-                      "layerIdentifier": "layer0",
-                      "locksAspectRatio": false,
-                      "materialIdentifier": "defaultMaterial:65280-fe58c94e-9eee-42bd-9fb9-0a1b702f3a52",
-                      "modelName": "rectangle_model",
-                      "name": "rect_hand1",
-                      "outputVisibility": "preview|capture",
-                      "physicsEnabled": false,
-                      "pinnedBottom": false,
-                      "pinnedBottomValue": {
-                        "unit": {
-                          "multiplier": 1,
-                          "unitBase": 10
-                        },
-                        "value": 0
-                      },
-                      "pinnedHorizontalCenterValue": {
-                        "unit": {
-                          "multiplier": 1,
-                          "unitBase": 10
-                        },
-                        "value": 0
-                      },
-                      "pinnedLeft": true,
-                      "pinnedLeftValue": {
-                        "unit": {
-                          "multiplier": 1,
-                          "unitBase": 10
-                        },
-                        "value": 0
-                      },
-                      "pinnedRight": false,
-                      "pinnedRightValue": {
-                        "unit": {
-                          "multiplier": 1,
-                          "unitBase": 10
-                        },
-                        "value": 0
-                      },
-                      "pinnedTop": true,
-                      "pinnedTopValue": {
-                        "unit": {
-                          "multiplier": 1,
-                          "unitBase": 10
-                        },
-                        "value": 0
-                      },
-                      "pinnedVerticalCenterValue": {
-                        "unit": {
-                          "multiplier": 1,
-                          "unitBase": 10
-                        },
-                        "value": 0
-                      },
-                      "positionX": {
-                        "unit": {
-                          "multiplier": 1,
-                          "unitBase": 10
-                        },
-                        "value": 0
-                      },
-                      "positionY": {
-                        "unit": {
-                          "multiplier": 1,
-                          "unitBase": 10
-                        },
-                        "value": 0
-                      },
-                      "rotation": 0,
-                      "scaleX": 1,
-                      "scaleY": 1,
+                      "prefabIdentifier": "gltf:111647-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+                      "receiveShadow": false,
+                      "renderPass": "main_scene",
+                      "sourceIdentifier": "mesh:111641-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
                       "tags": [],
                       "transform": {
                         "rx": 0,
@@ -683,154 +865,32 @@
                         "y": 0,
                         "z": 0
                       },
-                      "usesFlexibleHeight": false,
-                      "usesFlexibleWidth": false,
-                      "verticalAlignment": "center",
-                      "width": {
-                        "unit": {
-                          "multiplier": 1,
-                          "unitBase": 10
-                        },
-                        "value": 0
-                      }
-                    },
-                    {
-                      "animationMask": {
-                        "position": false,
-                        "rotation": false,
-                        "scale": false
-                      },
-                      "aspectRatioValue": 1,
-                      "cameraVisibility": "back|front",
-                      "fillMode": "none",
-                      "height": {
-                        "unit": {
-                          "multiplier": 1,
-                          "unitBase": 10
-                        },
-                        "value": 1
-                      },
-                      "hidden": false,
-                      "horizontalAlignment": "center",
-                      "identifier": "rectangle_model:500359-7807088c-b030-4cca-96ca-2bd5bf068064",
-                      "isMaterialIdentifierEnabled": true,
-                      "layerIdentifier": "betweenhands",
-                      "locksAspectRatio": false,
-                      "materialIdentifier": "defaultMaterial:71960-fe58c94e-9eee-42bd-9fb9-0a1b702f3a52",
-                      "modelName": "rectangle_model",
-                      "name": "rect_betweenhands",
-                      "outputVisibility": "preview|capture",
-                      "physicsEnabled": false,
-                      "pinnedBottom": false,
-                      "pinnedBottomValue": {
-                        "unit": {
-                          "multiplier": 1,
-                          "unitBase": 10
-                        },
-                        "value": 0
-                      },
-                      "pinnedHorizontalCenterValue": {
-                        "unit": {
-                          "multiplier": 1,
-                          "unitBase": 10
-                        },
-                        "value": 0
-                      },
-                      "pinnedLeft": true,
-                      "pinnedLeftValue": {
-                        "unit": {
-                          "multiplier": 1,
-                          "unitBase": 10
-                        },
-                        "value": 0
-                      },
-                      "pinnedRight": false,
-                      "pinnedRightValue": {
-                        "unit": {
-                          "multiplier": 1,
-                          "unitBase": 10
-                        },
-                        "value": 0
-                      },
-                      "pinnedTop": true,
-                      "pinnedTopValue": {
-                        "unit": {
-                          "multiplier": 1,
-                          "unitBase": 10
-                        },
-                        "value": 0
-                      },
-                      "pinnedVerticalCenterValue": {
-                        "unit": {
-                          "multiplier": 1,
-                          "unitBase": 10
-                        },
-                        "value": 0
-                      },
-                      "positionX": {
-                        "unit": {
-                          "multiplier": 1,
-                          "unitBase": 10
-                        },
-                        "value": 0
-                      },
-                      "positionY": {
-                        "unit": {
-                          "multiplier": 1,
-                          "unitBase": 10
-                        },
-                        "value": 0
-                      },
-                      "rotation": 0,
-                      "scaleX": 1,
-                      "scaleY": 1,
-                      "tags": [],
-                      "transform": {
-                        "rx": 0,
-                        "ry": 0,
-                        "rz": 0,
-                        "sx": 1,
-                        "sy": 1,
-                        "sz": 1,
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
-                      },
-                      "usesFlexibleHeight": false,
-                      "usesFlexibleWidth": false,
-                      "verticalAlignment": "center",
-                      "width": {
-                        "unit": {
-                          "multiplier": 1,
-                          "unitBase": 10
-                        },
-                        "value": 1
-                      }
+                      "useEmbeddedBlendshapes": false
                     }
                   ],
-                  "height": 844,
+                  "depth": 0.04972612112760544,
+                  "height": 0.04999999701976776,
                   "hidden": false,
-                  "identifier": "composition_model:397-b8094366-f94f-4e1c-9d78-9b16f5d847a5",
+                  "identifier": "master3_d_object_model:112267-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
                   "layerIdentifier": "layer0",
-                  "modelName": "composition_model",
-                  "name": "canvas0",
+                  "modelName": "3_d_object_instance_model",
+                  "name": "WorldSphere",
                   "outputVisibility": "preview|capture",
                   "physicsEnabled": false,
-                  "sizingMode": "full_screen",
-                  "spaceMode": "camera_space",
+                  "sourceIdentifier": "master3_d_object_model:111653-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
                   "tags": [],
                   "transform": {
                     "rx": 0,
                     "ry": 0,
                     "rz": 0,
-                    "sx": 0.0005924170836806297,
-                    "sy": 0.0005924170836806297,
-                    "sz": 0.0005924170836806297,
+                    "sx": 1,
+                    "sy": 1,
+                    "sz": 1,
                     "x": 0,
                     "y": 0,
-                    "z": 0
+                    "z": -0.10000000149011612
                   },
-                  "width": 390
+                  "width": 0.050000011920928955
                 }
               ],
               "hidden": false,
@@ -951,6 +1011,36 @@
       "modelName": "animations_model"
     },
     {
+      "children": [
+        {
+          "applicationData": [],
+          "assetDataHash": "adb002820843bc32f181c40f61e8bc81",
+          "assetLocator": "objects/HiresSphere/HiresSphere.gltf",
+          "authoringTool": "Khronos glTF Blender I/O v1.0.5",
+          "children": [
+            {
+              "identifier": "unsupportedFeatures:111655-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+              "modelName": "unsupportedFeatures",
+              "name": "unsupportedFeatures0",
+              "namesForFeatureType": {
+                "Material": [
+                  "HiresSphere_mat"
+                ]
+              }
+            }
+          ],
+          "excludeDuringExport": true,
+          "excludeFromPackage": false,
+          "externalSourceLocator": "sparkarstudio://arlibrary/facebook/three_d_object/216224789630166",
+          "identifier": "asset_collection_model:111657-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+          "importIssues": {},
+          "isExternalAsset": true,
+          "master3DInstanceSourceHash": "adb002820843bc32f181c40f61e8bc81",
+          "modelName": "asset_collection_model",
+          "name": "HiresSphere",
+          "wasAutoResized": false
+        }
+      ],
       "identifier": "asset_collections_model:BB783310-3A77-4CD4-B920-97C760E23F63",
       "modelName": "asset_collections_model"
     },
@@ -965,7 +1055,7 @@
     {
       "children": [
         {
-          "assetDataHash": "1fb6894ee52f7e29212c4cf80e9acc0a",
+          "assetDataHash": "36cec57a960390488d1b762ca4fb8161",
           "assetLocator": "patches/Hand Calculations.arp",
           "excludeDuringExport": false,
           "excludeFromPackage": false,
@@ -975,7 +1065,7 @@
           "name": "Hand Calculations"
         },
         {
-          "assetDataHash": "87034988066b79d20eae1457102a8764",
+          "assetDataHash": "d39fd8d0ace591690c6045e316fd633b",
           "assetLocator": "patches/Angle Calculation.arp",
           "excludeDuringExport": false,
           "excludeFromPackage": false,
@@ -1106,6 +1196,16 @@
           "isExternalAsset": true,
           "modelName": "script",
           "name": "License.js"
+        },
+        {
+          "assetDataHash": "8db6d8a24bea27819ff9daad3650b0d5",
+          "assetLocator": "scripts/HandTracking.js",
+          "excludeDuringExport": false,
+          "excludeFromPackage": false,
+          "identifier": "script:110875-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+          "isExternalAsset": true,
+          "modelName": "script",
+          "name": "HandTracking.js"
         }
       ],
       "identifier": "scripts_model:E3BA6360-E11F-4CB9-B030-501D122C36CD",
@@ -1121,6 +1221,143 @@
       "basicCompressionMethod": "fastest",
       "basicSmartQuality": 100,
       "basicSmartTextureTargetSizeLimit": "max1024",
+      "children": [
+        {
+          "accuracy": "best",
+          "active": true,
+          "cachedDeflatedExportSize": 0,
+          "cachedExportSize": 0,
+          "compressionFormat": 0,
+          "identifier": "textureExportConfig:111662-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+          "includeAlphaChannel": true,
+          "maxResolution": "max1024",
+          "method": "medium",
+          "modelName": "textureExportConfig",
+          "smartQuality": 100,
+          "targetFormat": 0,
+          "useDithering": false
+        },
+        {
+          "accuracy": "best",
+          "active": true,
+          "cachedDeflatedExportSize": 0,
+          "cachedExportSize": 0,
+          "compressionFormat": 0,
+          "identifier": "textureExportConfig:111664-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+          "includeAlphaChannel": true,
+          "maxResolution": "max1024",
+          "method": "medium",
+          "modelName": "textureExportConfig",
+          "smartQuality": 100,
+          "targetFormat": 2,
+          "useDithering": false
+        },
+        {
+          "accuracy": "best",
+          "active": true,
+          "cachedDeflatedExportSize": 0,
+          "cachedExportSize": 0,
+          "compressionFormat": 0,
+          "identifier": "textureExportConfig:111666-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+          "includeAlphaChannel": true,
+          "maxResolution": "max1024",
+          "method": "medium",
+          "modelName": "textureExportConfig",
+          "smartQuality": 100,
+          "targetFormat": 1,
+          "useDithering": false
+        },
+        {
+          "accuracy": "best",
+          "active": true,
+          "cachedDeflatedExportSize": 0,
+          "cachedExportSize": 0,
+          "compressionFormat": 0,
+          "identifier": "textureExportConfig:111671-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+          "includeAlphaChannel": true,
+          "maxResolution": "max1024",
+          "method": "medium",
+          "modelName": "textureExportConfig",
+          "smartQuality": 100,
+          "targetFormat": 0,
+          "useDithering": false
+        },
+        {
+          "accuracy": "best",
+          "active": true,
+          "cachedDeflatedExportSize": 0,
+          "cachedExportSize": 0,
+          "compressionFormat": 0,
+          "identifier": "textureExportConfig:111673-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+          "includeAlphaChannel": true,
+          "maxResolution": "max1024",
+          "method": "medium",
+          "modelName": "textureExportConfig",
+          "smartQuality": 100,
+          "targetFormat": 2,
+          "useDithering": false
+        },
+        {
+          "accuracy": "best",
+          "active": true,
+          "cachedDeflatedExportSize": 0,
+          "cachedExportSize": 0,
+          "compressionFormat": 0,
+          "identifier": "textureExportConfig:111675-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+          "includeAlphaChannel": true,
+          "maxResolution": "max1024",
+          "method": "medium",
+          "modelName": "textureExportConfig",
+          "smartQuality": 100,
+          "targetFormat": 1,
+          "useDithering": false
+        },
+        {
+          "accuracy": "best",
+          "active": true,
+          "cachedDeflatedExportSize": 0,
+          "cachedExportSize": 0,
+          "compressionFormat": 0,
+          "identifier": "textureExportConfig:111680-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+          "includeAlphaChannel": true,
+          "maxResolution": "max1024",
+          "method": "medium",
+          "modelName": "textureExportConfig",
+          "smartQuality": 100,
+          "targetFormat": 0,
+          "useDithering": false
+        },
+        {
+          "accuracy": "best",
+          "active": true,
+          "cachedDeflatedExportSize": 0,
+          "cachedExportSize": 0,
+          "compressionFormat": 0,
+          "identifier": "textureExportConfig:111682-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+          "includeAlphaChannel": true,
+          "maxResolution": "max1024",
+          "method": "medium",
+          "modelName": "textureExportConfig",
+          "smartQuality": 100,
+          "targetFormat": 2,
+          "useDithering": false
+        },
+        {
+          "accuracy": "best",
+          "active": true,
+          "cachedDeflatedExportSize": 0,
+          "cachedExportSize": 0,
+          "compressionFormat": 0,
+          "identifier": "textureExportConfig:111684-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+          "includeAlphaChannel": true,
+          "maxResolution": "max1024",
+          "method": "medium",
+          "modelName": "textureExportConfig",
+          "smartQuality": 100,
+          "targetFormat": 1,
+          "useDithering": false
+        }
+      ],
       "etcCompressionAccuracy": "normal",
       "etcCompressionFormat": 9,
       "etcSmartQuality": 100,
@@ -1191,7 +1428,7 @@
       "effectUsesBoundingBoxUtilities": true,
       "effectUsesCallLayout": false,
       "effectUsesCameraControl": false,
-      "effectUsesCameraInfoScriptingModule": false,
+      "effectUsesCameraInfoScriptingModule": true,
       "effectUsesCameraShare": false,
       "effectUsesComponentEvaluation": true,
       "effectUsesComposedLocally": false,
@@ -1210,7 +1447,7 @@
       "effectUsesDepthData": false,
       "effectUsesDepthShaderRead": false,
       "effectUsesDeviceMotion": false,
-      "effectUsesDiagnosticsScriptingModule": false,
+      "effectUsesDiagnosticsScriptingModule": true,
       "effectUsesDirectionalLightEstimation": false,
       "effectUsesDspAudioAnalyzer": false,
       "effectUsesDspBitCrusher": false,
@@ -1267,7 +1504,7 @@
       "effectUsesGraphQL": false,
       "effectUsesHairSegmentation": false,
       "effectUsesHalfFloatRenderPass": false,
-      "effectUsesHandGestureKeypoints": false,
+      "effectUsesHandGestureKeypoints": true,
       "effectUsesHandTracker": true,
       "effectUsesHapticFeedback": false,
       "effectUsesHeadsetInfo": false,
@@ -1276,7 +1513,7 @@
       "effectUsesIdentity": false,
       "effectUsesImageAntiAliasing": false,
       "effectUsesImageAssets": false,
-      "effectUsesImageBasedLighting": false,
+      "effectUsesImageBasedLighting": true,
       "effectUsesInstantGame": false,
       "effectUsesInstruction": true,
       "effectUsesIntent": false,
@@ -1323,7 +1560,7 @@
       "effectUsesOpticalFlow": false,
       "effectUsesOpusCodec": false,
       "effectUsesOverlayOutput": false,
-      "effectUsesPBRMaterial": false,
+      "effectUsesPBRMaterial": true,
       "effectUsesPageScopedIdentity": false,
       "effectUsesParticipant": false,
       "effectUsesParticleSystem": false,
@@ -1348,7 +1585,7 @@
       "effectUsesRGBCameraTexture": false,
       "effectUsesRTRMapping": false,
       "effectUsesRandomScriptingModule": false,
-      "effectUsesReactiveScriptingModule": false,
+      "effectUsesReactiveScriptingModule": true,
       "effectUsesRealScaleEstimation": false,
       "effectUsesRealScaleEstimationWithFallback": false,
       "effectUsesRecognition": false,
@@ -1364,7 +1601,7 @@
       "effectUsesSceneDepthWithFallback": false,
       "effectUsesSceneObjectTags": false,
       "effectUsesSceneRenderPassResolutionAspectRatio": false,
-      "effectUsesSceneScriptingModule": false,
+      "effectUsesSceneScriptingModule": true,
       "effectUsesScriptAnalytics": false,
       "effectUsesScriptingDynamicInstantiation": false,
       "effectUsesSegmentation": false,
@@ -1488,10 +1725,30 @@
       "worldTrackerUsesFaceTracker": false
     },
     {
+      "children": [
+        {
+          "assetAuthor": "Spark AR Assets",
+          "assetModelIdentifier": "asset_collection_model:111657-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+          "assetTitle": "Hires Sphere Primitive",
+          "assetURLString": "",
+          "identifier": "asset_attribution_model:111690-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+          "licenseModelIdentifier": "license_model:111688-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+          "modelName": "asset_attribution_model"
+        }
+      ],
       "identifier": "asset_attributions_model:54444C46-4A21-41BA-9606-F0EA48412828",
       "modelName": "asset_attributions_model"
     },
     {
+      "children": [
+        {
+          "identifier": "license_model:111688-3aa8985f-8c6c-4d4b-8f17-1da155ddf2a1",
+          "linkURLString": "https://creativecommons.org/licenses/by/4.0/",
+          "modelName": "license_model",
+          "name": "Creative Commons Attribution 4.0",
+          "slug": "CC BY 4.0"
+        }
+      ],
       "identifier": "licenses_model:91EFB458-F502-469F-AB76-2C9DAB65481B",
       "modelName": "licenses_model"
     },
@@ -1597,7 +1854,13 @@
   "name": "Effect",
   "objects": [
     {
-      "categoriesOrder": [],
+      "categoriesOrder": [
+        "materials",
+        "textures",
+        "shaders",
+        "scripts",
+        "patch_assets"
+      ],
       "identifier": "assets_config_model:93023-eaca62dc-3e81-402c-b0cd-569d3b9a09b1",
       "modelName": "assets_config_model"
     }
@@ -1774,62 +2037,6 @@
         "toPort": "15331648292057082367"
       },
       {
-        "fromPatch": "template_patch_model:228794-7807088c-b030-4cca-96ca-2bd5bf068064",
-        "fromPort": "100",
-        "identifier": "patch_connection_model:127899-283d44ce-ded8-4131-88c8-433e868aa745",
-        "modelName": "patch_connection_model",
-        "toPatch": "consumer_patch_model:75443-8d67b2b9-b1c0-4c74-867c-cb5131baf7b1",
-        "toPort": "101"
-      },
-      {
-        "fromPatch": "template_patch_model:228794-7807088c-b030-4cca-96ca-2bd5bf068064",
-        "fromPort": "106",
-        "identifier": "patch_connection_model:127991-283d44ce-ded8-4131-88c8-433e868aa745",
-        "modelName": "patch_connection_model",
-        "toPatch": "consumer_patch_model:127945-283d44ce-ded8-4131-88c8-433e868aa745",
-        "toPort": "2"
-      },
-      {
-        "fromPatch": "template_patch_model:335234-7807088c-b030-4cca-96ca-2bd5bf068064",
-        "fromPort": "100",
-        "identifier": "patch_connection_model:127993-283d44ce-ded8-4131-88c8-433e868aa745",
-        "modelName": "patch_connection_model",
-        "toPatch": "consumer_patch_model:95843-8d67b2b9-b1c0-4c74-867c-cb5131baf7b1",
-        "toPort": "101"
-      },
-      {
-        "fromPatch": "template_patch_model:335234-7807088c-b030-4cca-96ca-2bd5bf068064",
-        "fromPort": "105",
-        "identifier": "patch_connection_model:128083-283d44ce-ded8-4131-88c8-433e868aa745",
-        "modelName": "patch_connection_model",
-        "toPatch": "consumer_patch_model:127995-283d44ce-ded8-4131-88c8-433e868aa745",
-        "toPort": "2"
-      },
-      {
-        "fromPatch": "template_patch_model:335234-7807088c-b030-4cca-96ca-2bd5bf068064",
-        "fromPort": "106",
-        "identifier": "patch_connection_model:128085-283d44ce-ded8-4131-88c8-433e868aa745",
-        "modelName": "patch_connection_model",
-        "toPatch": "consumer_patch_model:128039-283d44ce-ded8-4131-88c8-433e868aa745",
-        "toPort": "2"
-      },
-      {
-        "fromPatch": "template_patch_model:104143-dd722f31-c8d6-40b8-82e2-8c52dd7e8cf8",
-        "fromPort": "100",
-        "identifier": "patch_connection_model:130171-dd722f31-c8d6-40b8-82e2-8c52dd7e8cf8",
-        "modelName": "patch_connection_model",
-        "toPatch": "consumer_patch_model:77935-dd722f31-c8d6-40b8-82e2-8c52dd7e8cf8",
-        "toPort": "101"
-      },
-      {
-        "fromPatch": "template_patch_model:133133-283d44ce-ded8-4131-88c8-433e868aa745",
-        "fromPort": "100",
-        "identifier": "patch_connection_model:140655-283d44ce-ded8-4131-88c8-433e868aa745",
-        "modelName": "patch_connection_model",
-        "toPatch": "consumer_patch_model:128179-283d44ce-ded8-4131-88c8-433e868aa745",
-        "toPort": "101"
-      },
-      {
         "fromPatch": "template_patch_model:178480-a0dd0482-f877-4193-91fd-cbbd1d640b93",
         "fromPort": "100",
         "identifier": "patch_connection_model:179040-a0dd0482-f877-4193-91fd-cbbd1d640b93",
@@ -1844,14 +2051,6 @@
         "modelName": "patch_connection_model",
         "toPatch": "template_patch_model:178480-a0dd0482-f877-4193-91fd-cbbd1d640b93",
         "toPort": "1"
-      },
-      {
-        "fromPatch": "patch_asset_instance_model:226304-76f6aad6-f180-4f8b-91f3-14dfe5d35eed",
-        "fromPort": "1596406855722700440",
-        "identifier": "patch_connection_model:226494-76f6aad6-f180-4f8b-91f3-14dfe5d35eed",
-        "modelName": "patch_connection_model",
-        "toPatch": "consumer_patch_model:214252-8d67b2b9-b1c0-4c74-867c-cb5131baf7b1",
-        "toPort": "101"
       },
       {
         "fromPatch": "template_patch_model:215966-76f6aad6-f180-4f8b-91f3-14dfe5d35eed",
@@ -1934,14 +2133,6 @@
         "toPort": "1"
       },
       {
-        "fromPatch": "template_patch_model:70790-283d44ce-ded8-4131-88c8-433e868aa745",
-        "fromPort": "101",
-        "identifier": "patch_connection_model:70922-283d44ce-ded8-4131-88c8-433e868aa745",
-        "modelName": "patch_connection_model",
-        "toPatch": "consumer_patch_model:495835-7807088c-b030-4cca-96ca-2bd5bf068064",
-        "toPort": "101"
-      },
-      {
         "fromPatch": "template_patch_model:70688-283d44ce-ded8-4131-88c8-433e868aa745",
         "fromPort": "100",
         "identifier": "patch_connection_model:70926-283d44ce-ded8-4131-88c8-433e868aa745",
@@ -1958,14 +2149,6 @@
         "toPort": "1"
       },
       {
-        "fromPatch": "template_patch_model:70630-283d44ce-ded8-4131-88c8-433e868aa745",
-        "fromPort": "101",
-        "identifier": "patch_connection_model:70930-283d44ce-ded8-4131-88c8-433e868aa745",
-        "modelName": "patch_connection_model",
-        "toPatch": "consumer_patch_model:496003-7807088c-b030-4cca-96ca-2bd5bf068064",
-        "toPort": "101"
-      },
-      {
         "fromPatch": "template_patch_model:178687-a0dd0482-f877-4193-91fd-cbbd1d640b93",
         "fromPort": "100",
         "identifier": "patch_connection_model:74573-d9536fae-48c1-4776-9b14-4d408dcaae59",
@@ -1980,22 +2163,6 @@
         "modelName": "patch_connection_model",
         "toPatch": "port_forwarding_patch_model:74531-d9536fae-48c1-4776-9b14-4d408dcaae59",
         "toPort": "5330998831435176705"
-      },
-      {
-        "fromPatch": "patch_group_model:277880-a0dd0482-f877-4193-91fd-cbbd1d640b93",
-        "fromPort": "11583534355926687703",
-        "identifier": "patch_connection_model:74577-d9536fae-48c1-4776-9b14-4d408dcaae59",
-        "modelName": "patch_connection_model",
-        "toPatch": "consumer_patch_model:107009-bbd8b5d7-ef41-45f8-acb8-7fc68f09ff84",
-        "toPort": "101"
-      },
-      {
-        "fromPatch": "patch_group_model:277880-a0dd0482-f877-4193-91fd-cbbd1d640b93",
-        "fromPort": "5330998831435176705",
-        "identifier": "patch_connection_model:74579-d9536fae-48c1-4776-9b14-4d408dcaae59",
-        "modelName": "patch_connection_model",
-        "toPatch": "consumer_patch_model:214293-bbd8b5d7-ef41-45f8-acb8-7fc68f09ff84",
-        "toPort": "101"
       },
       {
         "fromPatch": "template_patch_model:228794-7807088c-b030-4cca-96ca-2bd5bf068064",
@@ -2110,14 +2277,6 @@
         "toPort": "1"
       },
       {
-        "fromPatch": "template_patch_model:90882-eaca62dc-3e81-402c-b0cd-569d3b9a09b1",
-        "fromPort": "100",
-        "identifier": "patch_connection_model:91054-eaca62dc-3e81-402c-b0cd-569d3b9a09b1",
-        "modelName": "patch_connection_model",
-        "toPatch": "consumer_patch_model:125816-8d67b2b9-b1c0-4c74-867c-cb5131baf7b1",
-        "toPort": "101"
-      },
-      {
         "fromPatch": "template_patch_model:242744-76f6aad6-f180-4f8b-91f3-14dfe5d35eed",
         "fromPort": "100",
         "identifier": "patch_connection_model:95339-d9536fae-48c1-4776-9b14-4d408dcaae59",
@@ -2174,14 +2333,6 @@
         "toPort": "2764335226029433321"
       },
       {
-        "fromPatch": "template_patch_model:228794-7807088c-b030-4cca-96ca-2bd5bf068064",
-        "fromPort": "105",
-        "identifier": "patch_connection_model:99378-bbd8b5d7-ef41-45f8-acb8-7fc68f09ff84",
-        "modelName": "patch_connection_model",
-        "toPatch": "consumer_patch_model:99334-bbd8b5d7-ef41-45f8-acb8-7fc68f09ff84",
-        "toPort": "2"
-      },
-      {
         "fromPatch": "port_forwarding_patch_model:277928-a0dd0482-f877-4193-91fd-cbbd1d640b93",
         "fromPort": "3165227100605922960",
         "identifier": "patch_connection_model:99834-a0dd0482-f877-4193-91fd-cbbd1d640b93",
@@ -2203,21 +2354,7 @@
         "identifier": "patch_graph:20E7EF46-00C0-47C3-95DF-0B78C8B1C3D2",
         "modelName": "patch_graph",
         "subpatches": [
-          "consumer_patch_model:107009-bbd8b5d7-ef41-45f8-acb8-7fc68f09ff84",
-          "consumer_patch_model:125816-8d67b2b9-b1c0-4c74-867c-cb5131baf7b1",
-          "consumer_patch_model:127945-283d44ce-ded8-4131-88c8-433e868aa745",
-          "consumer_patch_model:127995-283d44ce-ded8-4131-88c8-433e868aa745",
-          "consumer_patch_model:128039-283d44ce-ded8-4131-88c8-433e868aa745",
-          "consumer_patch_model:128179-283d44ce-ded8-4131-88c8-433e868aa745",
-          "consumer_patch_model:214252-8d67b2b9-b1c0-4c74-867c-cb5131baf7b1",
-          "consumer_patch_model:214293-bbd8b5d7-ef41-45f8-acb8-7fc68f09ff84",
-          "consumer_patch_model:495835-7807088c-b030-4cca-96ca-2bd5bf068064",
-          "consumer_patch_model:496003-7807088c-b030-4cca-96ca-2bd5bf068064",
-          "consumer_patch_model:75443-8d67b2b9-b1c0-4c74-867c-cb5131baf7b1",
-          "consumer_patch_model:77935-dd722f31-c8d6-40b8-82e2-8c52dd7e8cf8",
           "consumer_patch_model:78877-8b54fd28-b492-4033-aa24-7d049f367501",
-          "consumer_patch_model:95843-8d67b2b9-b1c0-4c74-867c-cb5131baf7b1",
-          "consumer_patch_model:99334-bbd8b5d7-ef41-45f8-acb8-7fc68f09ff84",
           "patch_asset_instance_model:226304-76f6aad6-f180-4f8b-91f3-14dfe5d35eed",
           "patch_asset_instance_model:94237-d9536fae-48c1-4776-9b14-4d408dcaae59",
           "patch_asset_instance_model:95347-d9536fae-48c1-4776-9b14-4d408dcaae59",
@@ -2250,266 +2387,6 @@
     ],
     "patches": [
       {
-        "identifier": "consumer_patch_model:107009-bbd8b5d7-ef41-45f8-acb8-7fc68f09ff84",
-        "modelName": "consumer_patch_model",
-        "name": "handRect0",
-        "object": "rectangle_model:399-b8094366-f94f-4e1c-9d78-9b16f5d847a5",
-        "objectProperty": "planar_object_scale",
-        "position": [
-          2012,
-          -748
-        ],
-        "values": [
-          {
-            "port": "101",
-            "value": {
-              "t": "vec2",
-              "v": [
-                -1,
-                1
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "identifier": "consumer_patch_model:125816-8d67b2b9-b1c0-4c74-867c-cb5131baf7b1",
-        "modelName": "consumer_patch_model",
-        "name": "rainbow",
-        "object": "rectangle_model:500359-7807088c-b030-4cca-96ca-2bd5bf068064",
-        "objectProperty": "planar_object_position",
-        "position": [
-          2132,
-          -196
-        ],
-        "values": [
-          {
-            "port": "101",
-            "value": {
-              "t": "vec2",
-              "v": [
-                0,
-                0
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "identifier": "consumer_patch_model:127945-283d44ce-ded8-4131-88c8-433e868aa745",
-        "modelName": "consumer_patch_model",
-        "name": "handRect0",
-        "object": "rectangle_model:399-b8094366-f94f-4e1c-9d78-9b16f5d847a5",
-        "objectProperty": "planar_object_height",
-        "position": [
-          620,
-          -460
-        ],
-        "values": [
-          {
-            "port": "2",
-            "value": {
-              "t": "double",
-              "v": 1.00006
-            }
-          }
-        ]
-      },
-      {
-        "identifier": "consumer_patch_model:127995-283d44ce-ded8-4131-88c8-433e868aa745",
-        "modelName": "consumer_patch_model",
-        "name": "handRect1",
-        "object": "rectangle_mode65515-ac16fcd3-c7bb-40f8-85f0-7365c5639c41",
-        "objectProperty": "planar_object_width",
-        "position": [
-          620,
-          68
-        ],
-        "values": [
-          {
-            "port": "2",
-            "value": {
-              "t": "double",
-              "v": 1.00012
-            }
-          }
-        ]
-      },
-      {
-        "identifier": "consumer_patch_model:128039-283d44ce-ded8-4131-88c8-433e868aa745",
-        "modelName": "consumer_patch_model",
-        "name": "handRect1",
-        "object": "rectangle_mode65515-ac16fcd3-c7bb-40f8-85f0-7365c5639c41",
-        "objectProperty": "planar_object_height",
-        "position": [
-          620,
-          140
-        ],
-        "values": [
-          {
-            "port": "2",
-            "value": {
-              "t": "double",
-              "v": 1.00006
-            }
-          }
-        ]
-      },
-      {
-        "identifier": "consumer_patch_model:128179-283d44ce-ded8-4131-88c8-433e868aa745",
-        "modelName": "consumer_patch_model",
-        "name": "objectRect",
-        "object": "rectangle_model:500359-7807088c-b030-4cca-96ca-2bd5bf068064",
-        "objectProperty": "planar_object_scale",
-        "position": [
-          2132,
-          -364
-        ],
-        "values": [
-          {
-            "port": "101",
-            "value": {
-              "t": "vec2",
-              "v": [
-                1,
-                1
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "identifier": "consumer_patch_model:214252-8d67b2b9-b1c0-4c74-867c-cb5131baf7b1",
-        "modelName": "consumer_patch_model",
-        "name": "rainbow",
-        "object": "rectangle_model:500359-7807088c-b030-4cca-96ca-2bd5bf068064",
-        "objectProperty": "rotation",
-        "position": [
-          2084,
-          -4
-        ],
-        "values": [
-          {
-            "port": "101",
-            "value": {
-              "t": "vec3",
-              "v": [
-                0,
-                0,
-                0
-              ]
-            }
-          }
-        ],
-        "variantInfo": "local_transform"
-      },
-      {
-        "identifier": "consumer_patch_model:214293-bbd8b5d7-ef41-45f8-acb8-7fc68f09ff84",
-        "modelName": "consumer_patch_model",
-        "name": "handRect1",
-        "object": "rectangle_mode65515-ac16fcd3-c7bb-40f8-85f0-7365c5639c41",
-        "objectProperty": "planar_object_scale",
-        "position": [
-          2012,
-          -676
-        ],
-        "values": [
-          {
-            "port": "101",
-            "value": {
-              "t": "vec2",
-              "v": [
-                1,
-                1
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "identifier": "consumer_patch_model:495835-7807088c-b030-4cca-96ca-2bd5bf068064",
-        "modelName": "consumer_patch_model",
-        "name": "rectangle0",
-        "object": "rectangle_model:399-b8094366-f94f-4e1c-9d78-9b16f5d847a5",
-        "objectProperty": "visible",
-        "position": [
-          44,
-          -508
-        ],
-        "values": [
-          {
-            "port": "101",
-            "value": {
-              "t": "bool",
-              "v": true
-            }
-          }
-        ]
-      },
-      {
-        "identifier": "consumer_patch_model:496003-7807088c-b030-4cca-96ca-2bd5bf068064",
-        "modelName": "consumer_patch_model",
-        "name": "rectangle1",
-        "object": "rectangle_mode65515-ac16fcd3-c7bb-40f8-85f0-7365c5639c41",
-        "objectProperty": "visible",
-        "position": [
-          44,
-          44
-        ],
-        "values": [
-          {
-            "port": "101",
-            "value": {
-              "t": "bool",
-              "v": true
-            }
-          }
-        ]
-      },
-      {
-        "identifier": "consumer_patch_model:75443-8d67b2b9-b1c0-4c74-867c-cb5131baf7b1",
-        "modelName": "consumer_patch_model",
-        "name": "rectangle0",
-        "object": "rectangle_model:399-b8094366-f94f-4e1c-9d78-9b16f5d847a5",
-        "objectProperty": "planar_object_position",
-        "position": [
-          620,
-          -676
-        ],
-        "values": [
-          {
-            "port": "101",
-            "value": {
-              "t": "vec2",
-              "v": [
-                0,
-                0
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "identifier": "consumer_patch_model:77935-dd722f31-c8d6-40b8-82e2-8c52dd7e8cf8",
-        "modelName": "consumer_patch_model",
-        "name": "rect_betweenhands",
-        "object": "rectangle_model:500359-7807088c-b030-4cca-96ca-2bd5bf068064",
-        "objectProperty": "visible",
-        "position": [
-          -52,
-          -292
-        ],
-        "values": [
-          {
-            "port": "101",
-            "value": {
-              "t": "bool",
-              "v": true
-            }
-          }
-        ]
-      },
-      {
         "identifier": "consumer_patch_model:78877-8b54fd28-b492-4033-aa24-7d049f367501",
         "modelName": "consumer_patch_model",
         "name": "Device",
@@ -2520,49 +2397,6 @@
           524
         ],
         "values": []
-      },
-      {
-        "identifier": "consumer_patch_model:95843-8d67b2b9-b1c0-4c74-867c-cb5131baf7b1",
-        "modelName": "consumer_patch_model",
-        "name": "rectangle1",
-        "object": "rectangle_mode65515-ac16fcd3-c7bb-40f8-85f0-7365c5639c41",
-        "objectProperty": "planar_object_position",
-        "position": [
-          620,
-          -76
-        ],
-        "values": [
-          {
-            "port": "101",
-            "value": {
-              "t": "vec2",
-              "v": [
-                0,
-                0
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "identifier": "consumer_patch_model:99334-bbd8b5d7-ef41-45f8-acb8-7fc68f09ff84",
-        "modelName": "consumer_patch_model",
-        "name": "handRect0",
-        "object": "rectangle_model:399-b8094366-f94f-4e1c-9d78-9b16f5d847a5",
-        "objectProperty": "planar_object_width",
-        "position": [
-          620,
-          -532
-        ],
-        "values": [
-          {
-            "port": "2",
-            "value": {
-              "t": "double",
-              "v": 375.0000305175781
-            }
-          }
-        ]
       },
       {
         "identifier": "patch_asset_instance_model:226304-76f6aad6-f180-4f8b-91f3-14dfe5d35eed",
